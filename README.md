@@ -8,7 +8,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 -->
 <div align="center">
 
-  <img src="docs/gamera logo.JPEG" alt="logo" width="200" height="auto" />
+  <img src="docs/gamera logo.JPG" alt="logo" width="200" height="auto" />
   <h1>Gamera Solar</h1>
   
   <p>
