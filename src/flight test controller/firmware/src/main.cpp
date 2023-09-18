@@ -14,7 +14,7 @@ const int BUFFER_SIZE = 1;
 char buf[2];
 
 // motor struct
-const int MOTOR_PIN[4] = {6,9,10,11};
+const int MOTOR_PIN[4] = {3,5,6,9};
 struct MOTOR{
   Servo motor;
   int power;
@@ -248,7 +248,7 @@ void quit() {
   Serial.end();
 
   // sleep forever until restart
-  LowPower.powerDown(SLEEP_FOREVER, ADC_OFF, BOD_OFF);
+  while (true){}
 }
 
 void displayAllMotors() {
